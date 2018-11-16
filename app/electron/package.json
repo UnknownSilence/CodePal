@@ -1,0 +1,32 @@
+{
+  "name": "code-pal",
+  "version": "1.0.0",
+  "description": "A minimal project idea manager application made using electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . CodePal --out=dist/win --platform=win32 --arch=x64 --icon ./assets/Icon.Ico --asar=true --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnknownSilence/code-pal.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Trent Hardy",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.4",
+    "electron-packager": "^12.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/UnknownSilence/code-pal/issues"
+  },
+  "homepage": "https://github.com/UnknownSilence/code-pal/blob/master/README.md",
+  "dependencies": {}
+}

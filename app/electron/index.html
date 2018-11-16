@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html style="width: 100%; height: 90%; background-color: #262626">
+
+<head>
+  <meta charset="UTF-8">
+  <title>codePal | Project Idea Generator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body style="width: 100%; height: 90%; background-color: #232323;">
+  <!-- All of the Node.js APIs are available in this renderer process. -->
+
+  <div class="pageContent" style="height: 100%; width: 100%; text-align: center;">
+    <h1 style="margin: auto; width: 50%; margin-top:auto; padding-top: 10%; padding-bottom: 5%; color: #53e2c1;">Welcome
+      to codePal!</h1>
+    <p style="display: block; margin: auto; background-color: #232323;">A lightweight coding project idea generator.</p>
+    <a id="generateBtn" class="btn btn-primary" style="text-align: center;width: 300px;margin: auto;">Generate Idea</a>
+    <div id="ideasDiv" style="width:100%; height: 50%; padding-top: 5%;" class="ideaContent" style="color: #f60053; z-index: 5; background-color: #6b6b6b !important;">
+      <p id="ideas"></p>
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</body>
+
+</html>
