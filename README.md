@@ -1,5 +1,8 @@
 # CodePal
 
+EDIT: The features of this app have been combined with a later development, the ProjectPal. For more features check it out at: https://github.com/UnknownSilence/ProjectPal.
+----------------------------------------------------------------------------------
+
 
 Ever had problems coming up with project ideas?
 
