@@ -13,6 +13,7 @@ idea combinations from a ever-expanding list of potential projects.
 
 
 This project was made using Electron, a desktop application development library for Javascript.
+------------------------------------------------------------------------------------------------
 https://electronjs.org/
 
 
